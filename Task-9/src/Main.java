@@ -8,5 +8,13 @@ public class Main {
         System.out.println("\n2. Finally");
         Finally finallyDemo = new Finally();
         finallyDemo.run();
+
+        System.out.println("\n3. Throw");
+        Throw throwDemo = new Throw();
+        throwDemo.run();
+
+        System.out.println("\n4. Throws");
+        Throws throwsDemo = new Throws();
+        throwsDemo.run();
     }
 }
