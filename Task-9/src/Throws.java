@@ -6,4 +6,7 @@ public class Throws {
             System.out.println("Caught: " + e.getMessage());
         }
     }
+    private void connectDatabase() throws Exception {
+        throw new Exception("Database connection failed.");
+    }
 }
